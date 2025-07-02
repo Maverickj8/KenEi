@@ -28,9 +28,9 @@ const Story = () => {
             </div>
     
             {/* RIGHT */}
-            <div className="bg-[#031C17] text-white p-6 md:p-10 rounded-2xl shadow-lg">
+            <div data-aos="fade-down-left" className="bg-[#031C17] text-white p-6 md:p-10 rounded-2xl shadow-lg">
               <p className="text-sm leading-relaxed mb-6">
-                Founded in <strong>2025</strong>, KenEi Solutions emerged from a clear
+                Founded in <strong>2018</strong>, KenEi Solutions emerged from a clear
                 need to help organizations simplify complex information and
                 transform it into powerful, actionable solutions. We exist to make
                 innovation accessible — distilling technology into its most impactful

@@ -9,9 +9,15 @@ import Mission from "@/components/ui/Mission";
 import Story from "@/components/ui/Story";
 import Solution from "@/components/ui/Solution";
 import Contact from "@/components/ui/Contact";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
   // const [showMore, setShowMore] = useState(false);
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // Initialize AOS with animation duration
+  }, []);
   const [email, setEmail] = useState("");
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -28,7 +34,7 @@ export default function Home() {
         style={{ backgroundImage: "url(/images/man.jpg)" }}
       >
         {/* Overlay */}
-        <div className="absolute inset-0 bg-opacity-10"></div>
+        <div className="absolute inset-0 bg-opacity-10 backdrop-blur-sm"></div>
 
         {/* Navbar */}
         <nav className="relative z-10 flex items-center justify-between px-6 py-4 md:px-20">
@@ -126,6 +132,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-6 max-w-6xl mx-auto bg-white rounded-2xl p-6 md:p-10 shadow-md">
             <div className="rounded-lg overflow-hidden">
               <Image
+              data-aos="fade-right"
                 src="/images/Frame 16.png"
                 alt="Highlight 1"
                 width={500}
@@ -135,6 +142,7 @@ export default function Home() {
             </div>
             <div className="rounded-lg overflow-hidden">
               <Image
+              data-aos="fade-left"
                 src="/images/Frame 18.png"
                 alt="Highlight 2"
                 width={500}

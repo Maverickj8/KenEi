@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 const Mission = () => {
   return (
-    <section className="w-full px-4 py-12 bg-white">
+    <section  className="w-full px-4 py-12 bg-white">
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             {/* Left Text Box */}
-            <div className="bg-[#031C17] text-white rounded-xl p-6 md:p-10 shadow-md">
+            <div data-aos="zoom-in" className="bg-[#031C17] text-white rounded-xl p-6 md:p-10 shadow-md">
               <span className="inline-block text-sm text-yellow-300 font-semibold bg-[#1C3A33] px-4 py-1 rounded mb-4">
                 Mission & Statement
               </span>
@@ -27,6 +27,7 @@ const Mission = () => {
             {/* Right Image Box */}
             <div className="overflow-hidden rounded-xl shadow-md">
               <Image
+              data-aos="zoom-in"
                 src="/images/female.jpg"
                 alt="AI woman"
                 width={600}
