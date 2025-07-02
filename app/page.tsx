@@ -248,7 +248,7 @@ export default function Home() {
               <a href="#" aria-label="Facebook">
                 <FaFacebookF />
               </a>
-              <a href="#" aria-label="Twitter">
+              <a href="https://x.com/KenEi_Health" aria-label="Twitter">
                 <FaTwitter />
               </a>
               <a href="#" aria-label="Instagram">
