@@ -14,13 +14,7 @@ const Mission = () => {
                 We’re on a mission to revolutionize Africa’s future through tech and AI
               </h2>
               <p className="text-gray-300 text-sm leading-relaxed">
-                Lorem ipsum dolor sit amet consectetur. A aliquet pretium faucibus magna. 
-                Eget feugiat dignissim iaculis neque mi sit convallis urna et. 
-                Sed sem egestas dictum elit. Pulvinar a nibh lacus eget turpis lectus eleifend nisi.
-                Non metus nullam justo non aliquam tincidunt nibh nisl.
-                Pulvinar arcu vitae ipsum leo sed pulvinar risus nisi.
-                Felis faucibus morbi feugiat bibendum. 
-                Lacus facilisis diam placerat cursus senectus dictum consectetur morbi.
+                At KenEi Health, our mission is to empower individuals to take control of their well-being by providing accessible, personalized, and comprehensive healthcare solutions. We strive to bridge the gap between patients and healthcare professionals, fostering a supportive community that prioritizes preventive care, early intervention, and holistic wellness. Through our innovative platform, we aim to make quality healthcare more accessible, convenient, and affordable for all
               </p>
             </div>
     
