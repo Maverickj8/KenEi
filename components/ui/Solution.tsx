@@ -13,7 +13,9 @@ const Solution = () => {
     {
       id: 2,
       title: "KenEi Health",
-      description: `A groundbreaking healthcare platform delivering quality medical services to remote areas. Impact: On track to provide healthcare access to 100,000+ individuals by 2025`,
+      description: `At KenEi Solutions, we’re driven by a singular mission: to harness
+                the power of technology and AI to tackle the most pressing
+                challenges facing Africa, especially in underserved communities.`,
       image: "/images/doct.jpg",
     },
     {
